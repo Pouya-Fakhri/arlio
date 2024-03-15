@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="./output.css" />
     <title>Document</title>
   </head>
+
   <body>
-    <main>
+    <main class="overflow-hidden">
       <div
-        class="hero w-screen h-[85vh] px-[64px] pb-32 pt-[64px] bg-[url('../images/header.jpg')] bg-cover"
+        class="hero w-screen h-[100vh] px-[64px] pb-32 pt-[64px] bg-[url('../images/header.jpg')] bg-cover"
       >
-        <header>
+        <header class="relative">
           <nav class="w-full flex justify-between items-center">
             <div class="logo">
               <a href="./index.html"
@@ -101,12 +102,12 @@
               ></a>
             </div>
             <div class="rightPart flex justify-between items-center gap-12">
-              <ul class="flex gap-8 text-[#E0E0E0] text-[14px] font-medium">
-                <li><a href="">Blog</a></li>
-                <li><a href="">contact</a></li>
-                <li><a href="">Pictures & stories</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Products</a></li>
+              <ul class="flex gap-8 text-[#E0E0E0] text-[14px]">
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">Pictures & stories</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Products</a></li>
                 <li>
                   <a
                     href=""
@@ -127,7 +128,7 @@
               </ul>
               <div class="shopBox flex gap-[16px]">
                 <button
-                  class="w-12 h-12 p-3 border-solid border-[E2E8F0]/50 border rounded-md"
+                  class="w-12 h-12 p-3 border-solid border-[E2E8F0]/50 border rounded-md flex justify-center items-center"
                 >
                   <svg
                     width="24"
@@ -247,6 +248,602 @@
           </div>
         </header>
       </div>
+      <section class="aboutUs px-[64px] flex justify-between my-[128px]">
+        <div class="imageContainer">
+          <img src="../images/aboutUs.png" alt="" />
+        </div>
+        <div class="textContainer w-1/2 flex flex-col justify-between">
+          <div class="title flex items-center gap-3 text-[18px]">
+            <svg
+              width="36"
+              height="36"
+              viewBox="0 0 36 36"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="36"
+                height="36"
+                rx="8"
+                fill="#AA205E"
+                fill-opacity="0.25"
+              />
+              <path
+                d="M26.95 20.55L20.56 26.94C19.16 28.34 16.86 28.34 15.45 26.94L9.06001 20.55C7.66001 19.15 7.66001 16.85 9.06001 15.44L15.45 9.05C16.85 7.65 19.15 7.65 20.56 9.05L26.95 15.44C28.35 16.85 28.35 19.15 26.95 20.55Z"
+                stroke="#AA205E"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+
+            About us
+          </div>
+          <h2 class="text-[35px] text-[#1F1F1F] font-semibold">
+            Our Company Overview
+          </h2>
+          <p class="text-[16px] text-[#666C89] font-medium">
+            Carlio brand is one of the most reliable motor oil manufacturers,
+            which is engaged in the production of high quality products with a
+            history of more than decades in the industry. In order to get more
+            information about other aspects and products of the Carlio brand,
+            you can use the following buttons:
+          </p>
+          <div class="button flex gap-4">
+            <button
+              class="w-[185px] h-[54px] bg-[#AA205E] rounded text-[18px] text-white font-medium"
+            >
+              Company
+            </button>
+            <button
+              class="w-[185px] h-[54px] bg-[#E8E8E8] rounded text-[18px] text-[#1F1F1F] font-medium"
+            >
+              Products
+            </button>
+            <button
+              class="w-[185px] h-[54px] bg-[#E8E8E8] rounded text-[18px] text-[#1F1F1F] font-medium"
+            >
+              Our team
+            </button>
+          </div>
+          <hr />
+          <p class="text-[16px] text-[#666C89] font-medium">
+            The meaning of production in Carlio is the creation, development,
+            and the path to progress, and the starting point to achieve the
+            goals that we all have the Petroforce brand, with over 20 years of
+            experience in the oil and petrochemical industry, we officially
+            started our activities in the field of design, engineering,
+            construction of refinery equipment, and the production of various
+            motor and industrial lubricants in the year 1390 (2011)
+          </p>
+          <button
+            class="w-[150px] h-[54px] bg-[#091242] rounded text-[18px] text-white font-medium"
+          >
+            Leran More
+          </button>
+        </div>
+      </section>
+      <section
+        class="productFeatures bg-[url('../images/productFeaturesImage.jpg')] p-[64px] flex justify-between text-white rounded-none"
+      >
+        <div class="textContainer w-[36%] flex flex-col justify-between">
+          <div class="title flex items-center gap-3 text-lg font-normal">
+            <svg
+              width="50"
+              height="50"
+              viewBox="0 0 50 50"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_d_1_53458)">
+                <rect
+                  x="7"
+                  y="7"
+                  width="36"
+                  height="36"
+                  rx="8"
+                  fill="#AA205E"
+                  fill-opacity="0.25"
+                  shape-rendering="crispEdges"
+                />
+                <path
+                  d="M16.1702 20.44L25.0002 25.55L33.7701 20.47"
+                  stroke="#AA205E"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M25.0002 34.61V25.54"
+                  stroke="#AA205E"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <g filter="url(#filter1_d_1_53458)">
+                  <path
+                    d="M22.9301 15.48L17.5901 18.45C16.3801 19.12 15.3901 20.8 15.3901 22.18V27.83C15.3901 29.21 16.3801 30.89 17.5901 31.56L22.9301 34.53C24.0701 35.16 25.9401 35.16 27.0801 34.53L32.4201 31.56C33.6301 30.89 34.6201 29.21 34.6201 27.83V22.18C34.6201 20.8 33.6301 19.12 32.4201 18.45L27.0801 15.48C25.9301 14.84 24.0701 14.84 22.9301 15.48Z"
+                    stroke="#AA205E"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    shape-rendering="crispEdges"
+                  />
+                </g>
+                <path
+                  d="M30 26.24V22.58L20.51 17.1"
+                  stroke="#AA205E"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_1_53458"
+                  x="0.2"
+                  y="0.2"
+                  width="49.6"
+                  height="49.6"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="3.4" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.666667 0 0 0 0 0.12549 0 0 0 0 0.368627 0 0 0 0.2 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_1_53458"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_1_53458"
+                    result="shape"
+                  />
+                </filter>
+                <filter
+                  id="filter1_d_1_53458"
+                  x="10.6401"
+                  y="10.25"
+                  width="28.73"
+                  height="29.5025"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="2" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 0.666667 0 0 0 0 0.12549 0 0 0 0 0.368627 0 0 0 1 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_1_53458"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_1_53458"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            Carlio Product Features
+          </div>
+          <h2 class="text-4xl font-semibold">
+            The feature of Carlio engine oil that you will benefit from
+          </h2>
+          <button
+            class="w-[190px] h-[54px] border rounded-lg text-lg font-medium"
+          >
+            Visit Shop Page
+          </button>
+        </div>
+        <div class="cardContainer w-1/2 flex gap-[24px]">
+          <div
+            class="card w-52 h-64 rounded-[10px] border text-[24px] leading-[150%] font-medium flex flex-col justify-center items-center"
+          >
+            <svg
+              width="102"
+              height="88"
+              viewBox="0 0 102 88"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_d_2028_70)">
+                <path
+                  d="M61.8874 24.1958L65.9999 32.4208C66.554 33.5583 68.0415 34.6375 69.2957 34.8708L76.7332 36.0958C81.4874 36.8833 82.5957 40.325 79.1832 43.7667L73.379 49.5708C72.4165 50.5333 71.8624 52.4292 72.1832 53.8L73.8457 60.975C75.1582 66.6333 72.1249 68.85 67.1374 65.875L60.1665 61.7333C58.9124 60.975 56.8124 60.975 55.5582 61.7333L48.5874 65.875C43.5999 68.8208 40.5665 66.6333 41.879 60.975L43.5415 53.8C43.804 52.4 43.2499 50.5042 42.2874 49.5417L36.4832 43.7375C33.0707 40.325 34.179 36.8833 38.9332 36.0667L46.3707 34.8417C47.6249 34.6375 49.1124 33.5292 49.6665 32.3917L53.779 24.1667C56.0249 19.7333 59.6415 19.7333 61.8874 24.1958Z"
+                  fill="white"
+                />
+              </g>
+              <g filter="url(#filter1_d_2028_70)">
+                <path
+                  d="M40.3334 25.7708H22.8334C21.6375 25.7708 20.6459 24.7792 20.6459 23.5833C20.6459 22.3875 21.6375 21.3958 22.8334 21.3958H40.3334C41.5292 21.3958 42.5209 22.3875 42.5209 23.5833C42.5209 24.7792 41.5292 25.7708 40.3334 25.7708Z"
+                  fill="white"
+                />
+              </g>
+              <g filter="url(#filter2_d_2028_70)">
+                <path
+                  d="M31.5834 66.6042H22.8334C21.6375 66.6042 20.6459 65.6125 20.6459 64.4167C20.6459 63.2208 21.6375 62.2292 22.8334 62.2292H31.5834C32.7792 62.2292 33.7709 63.2208 33.7709 64.4167C33.7709 65.6125 32.7792 66.6042 31.5834 66.6042Z"
+                  fill="white"
+                />
+              </g>
+              <g filter="url(#filter3_d_2028_70)">
+                <path
+                  d="M25.75 46.1875H22.8334C21.6375 46.1875 20.6459 45.1958 20.6459 44C20.6459 42.8042 21.6375 41.8125 22.8334 41.8125H25.75C26.9459 41.8125 27.9375 42.8042 27.9375 44C27.9375 45.1958 26.9459 46.1875 25.75 46.1875Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_2028_70"
+                  x="14.5015"
+                  y="0.845306"
+                  width="86.6635"
+                  height="86.3527"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_2028_70"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_2028_70"
+                    result="shape"
+                  />
+                </filter>
+                <filter
+                  id="filter1_d_2028_70"
+                  x="0.645874"
+                  y="1.39583"
+                  width="61.875"
+                  height="44.375"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_2028_70"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_2028_70"
+                    result="shape"
+                  />
+                </filter>
+                <filter
+                  id="filter2_d_2028_70"
+                  x="0.645874"
+                  y="42.2292"
+                  width="53.125"
+                  height="44.375"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_2028_70"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_2028_70"
+                    result="shape"
+                  />
+                </filter>
+                <filter
+                  id="filter3_d_2028_70"
+                  x="0.645874"
+                  y="21.8125"
+                  width="47.2916"
+                  height="44.375"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_2028_70"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_2028_70"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <h3 class="text-center" style="text-shadow: 1px 1px 10px #fff">
+              High Quality Product
+            </h3>
+          </div>
+          <div
+            class="card w-52 h-64 rounded-[10px] border text-[24px] leading-[150%] font-medium flex flex-col justify-center items-center"
+          >
+            <svg
+              width="90"
+              height="100"
+              viewBox="0 0 90 100"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_d_1_53469)">
+                <path
+                  d="M35.7251 29.2917L31.9918 23.1083C30.5918 20.8333 27.821 19.55 25.2251 20.3083C21.3168 21.475 19.8001 25.8792 21.7543 29.1167L25.6043 35.4458C26.0418 36.1167 26.946 36.35 27.6168 35.9417L35.2293 31.3042C35.9293 30.8667 36.1626 29.9625 35.7251 29.2917Z"
+                  fill="white"
+                />
+              </g>
+              <g filter="url(#filter1_d_1_53469)">
+                <path
+                  d="M67.575 56.4459L59.3792 45.3625C56.5208 41.5125 51.5625 39.7042 46.8958 40.9584C46.8958 40.9292 46.8667 40.9292 46.8667 40.9L42.025 32.9375C41.15 31.5667 39.3417 31.1292 37.9708 31.975L27.85 38.1292C26.45 38.9459 26.0125 40.7834 26.8583 42.1834L31.6708 50.1459C31.6708 50.1459 31.6708 50.175 31.7 50.175C28.4625 53.7625 27.7625 58.9834 29.9208 63.3292L35.9875 75.6959C37.8542 79.5167 42.2583 80.975 45.9917 79.05C46.2833 78.9042 46.3708 78.5542 46.1958 78.2625L41.6458 70.7375C41.0042 69.6875 41.325 68.3459 42.375 67.675C43.425 67.0625 44.7667 67.3834 45.4375 68.4042L50.0167 75.9292C50.1917 76.1917 50.5417 76.2792 50.8042 76.1334L53.6042 74.4417C53.8667 74.2667 53.9542 73.9167 53.8083 73.6542L49.2292 66.1292C48.6167 65.0792 48.9375 63.7375 49.9583 63.0667C51.0375 62.4542 52.3792 62.775 53.0208 63.7959L57.6 71.3209C57.775 71.5834 58.125 71.6709 58.3875 71.525L61.1875 69.8334C61.45 69.6584 61.5375 69.3084 61.3917 69.0459L56.8125 61.5209C56.2 60.4709 56.5208 59.1292 57.5417 58.4584C58.6208 57.8459 59.9625 58.1667 60.6042 59.1875L65.2125 66.6834C65.3875 66.9459 65.7375 67.0334 66 66.8584C69.3833 64.4375 70.1417 59.8875 67.575 56.4459Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_1_53469"
+                  x="0.90332"
+                  y="0.0898285"
+                  width="55.0435"
+                  height="56.0539"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_1_53469"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_1_53469"
+                    result="shape"
+                  />
+                </filter>
+                <filter
+                  id="filter1_d_1_53469"
+                  x="6.42798"
+                  y="11.5435"
+                  width="82.6759"
+                  height="88.3532"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_1_53469"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_1_53469"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <h3 class="text-center" style="text-shadow: 1px 1px 10px #fff">
+              Cleaning of deposits
+            </h3>
+          </div>
+          <div
+            class="card w-52 h-64 rounded-[10px] border text-[24px] leading-[150%] font-medium flex flex-col justify-center items-center"
+          >
+            <svg
+              width="93"
+              height="100"
+              viewBox="0 0 93 100"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g filter="url(#filter0_d_1_53472)">
+                <path
+                  d="M65.4623 31.5375L31.2207 65.7792C29.9373 67.0625 27.779 66.8875 26.729 65.3708C23.1123 60.0917 20.9832 53.85 20.9832 47.4333V34.6292C20.9832 32.2375 22.7915 29.525 25.0082 28.6208L41.254 21.9708C44.929 20.4542 49.0123 20.4542 52.6873 21.9708L64.4998 26.7833C66.4248 27.5708 66.9207 30.0792 65.4623 31.5375Z"
+                  fill="white"
+                />
+              </g>
+              <g filter="url(#filter1_d_1_53472)">
+                <path
+                  d="M68.2042 35.5333C70.1001 33.9292 72.9876 35.3 72.9876 37.7792V47.4333C72.9876 61.6958 62.6334 75.0542 48.4876 78.9625C47.5251 79.225 46.4751 79.225 45.4834 78.9625C41.3417 77.7958 37.4917 75.8417 34.1959 73.275C32.7959 72.1958 32.6501 70.1542 33.8751 68.9C40.2334 62.3958 58.8417 43.4375 68.2042 35.5333Z"
+                  fill="white"
+                />
+              </g>
+              <defs>
+                <filter
+                  id="filter0_d_1_53472"
+                  x="0.983154"
+                  y="0.833328"
+                  width="85.325"
+                  height="85.803"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_1_53472"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_1_53472"
+                    result="shape"
+                  />
+                </filter>
+                <filter
+                  id="filter1_d_1_53472"
+                  x="13.0433"
+                  y="14.8424"
+                  width="79.9442"
+                  height="84.317"
+                  filterUnits="userSpaceOnUse"
+                  color-interpolation-filters="sRGB"
+                >
+                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                  <feColorMatrix
+                    in="SourceAlpha"
+                    type="matrix"
+                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                    result="hardAlpha"
+                  />
+                  <feOffset />
+                  <feGaussianBlur stdDeviation="10" />
+                  <feComposite in2="hardAlpha" operator="out" />
+                  <feColorMatrix
+                    type="matrix"
+                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.46 0"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in2="BackgroundImageFix"
+                    result="effect1_dropShadow_1_53472"
+                  />
+                  <feBlend
+                    mode="normal"
+                    in="SourceGraphic"
+                    in2="effect1_dropShadow_1_53472"
+                    result="shape"
+                  />
+                </filter>
+              </defs>
+            </svg>
+            <h3 class="text-center" style="text-shadow: 1px 1px 10px #fff">
+              Engine protection
+            </h3>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>

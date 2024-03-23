@@ -1,0 +1,15 @@
+.sliderPodition {
+  transition: all 2s;
+  position: relative;
+  right: 70%;
+}
+.goToRight {
+  transition: all 2s;
+  position: relative;
+  right: 133%;
+}
+.goToLeft {
+  transition: all 2s;
+  position: relative;
+  right: 4%;
+}
